@@ -7,6 +7,7 @@
     <serviceTask activiti:exclusive="true" id="_5" name="ServiceTask"/>
     <scriptTask activiti:exclusive="true" id="_6" name="ScriptTask"/>
     <endEvent id="_7" name="EndEvent"/>
+    <manualTask activiti:exclusive="true" id="_8" name="ManualTask"/>
   </process>
   <bpmndi:BPMNDiagram documentation="background=#3C3F41;count=1;horizontalcount=1;orientation=0;width=842.4;height=1195.2;imageableWidth=832.4;imageableHeight=1185.2;imageableX=5.0;imageableY=5.0" id="Diagram-_1" name="New Diagram">
     <bpmndi:BPMNPlane bpmnElement="myProcess_1">
@@ -44,6 +45,12 @@
         <dc:Bounds height="32.0" width="32.0" x="300.0" y="320.0"/>
         <bpmndi:BPMNLabel>
           <dc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_8" id="Shape-_8">
+        <dc:Bounds height="55.0" width="85.0" x="130.0" y="265.0"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="55.0" width="85.0" x="0.0" y="0.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
